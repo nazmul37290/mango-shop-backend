@@ -1,0 +1,10 @@
+python -m venv env
+env\scripts\activate
+python.exe -m pip install --upgrade pip
+pip install django djangorestframework djangorestframework-simplejwt django-cors-headers
+django-admin startproject backend .
+python manage.py startapp mshop
+
+superuser: mshop
+email:imran814210@gmail.com
+pd: mshop@2025

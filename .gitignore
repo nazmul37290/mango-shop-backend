@@ -1,0 +1,37 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folder
+env/
+venv/
+
+# Django stuff:
+*.sqlite3
+db.sqlite3
+
+# Media files (uploaded user files)
+media/
+
+# Static files collected
+staticfiles/
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+
+# Environment variables
+.env
+.env.*
+
+# Byte-compiled / optimized / DLL files
+*.pyd
+*.so
+
+# Logs and databases
+*.log
+
+# Render deployment files you want to ignore (optional)
+render.yaml
