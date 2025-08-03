@@ -100,7 +100,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.config(default='sqlite:///db.sqlite3')
+    'default': dj_database_url.config(default='postgresql://mango_shop_db_user:PKl17WuBzmGah82VhWbPjRNYTvmOuwKH@dpg-d27pj87diees73cu8as0-a/mango_shop_db')
 }
 
 # Password validation
